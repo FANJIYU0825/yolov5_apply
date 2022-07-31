@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+header {
+  background-color: pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding-bottom: 1rem;
+  z-index: 1;
+}
+
+header div.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 400px;
+          flex: 3 1 400px;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+header div.logo img {
+  width: 7vw;
+  height: 7vw;
+}
+
+header nav {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 400px;
+          flex: 2 1 400px;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav ul li a {
+  color: #040505;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
+  header div.logo {
+    margin-left: 1rem;
+  }
+  header div.logo img {
+    width: 10vw;
+    height: 10vw;
+  }
+}
+
+main section.backImage {
+  min-height: 90vh;
+  width: 100%;
+  background-color: plum;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main section.backImage div.filter {
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 90vh;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+main section.backImage h3 {
+  font-size: 3rem;
+  color: #FFFFFF;
+}
+
+main section.backImage button.start {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  color: #FFFFFF;
+  background-color: #dce0e0;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 0.75rem;
+  border: none;
+  cursor: pointer;
+}
+
+main section.backImage .custom-file-upload {
+  color: #040505;
+  background-color: transparent;
+  font-size: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section.backImage input[type=file] {
+  display: none;
+}
+
+main section.page2 {
+  background-color: pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 80vh;
+}
+
+main section.page2 h2.page2nde {
+  color: purple;
+}
+
+main section.page2 div.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+}
+
+main section.page2 div.cards .card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 400px;
+          flex: 1 1 400px;
+}
+
+main section.page2 div.cards .card img {
+  border-radius: 50%;
+  width: 20vw;
+  height: 20vw;
+}
+
+main section.page2 div.cards .card button {
+  padding: 0.5rem 1rem;
+  color: #FFFFFF;
+  background-color: #bb19d8;
+  border: none;
+  border-radius: 0.7rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+main section.page2 div.cards .card button:hover {
+  background-color: #2089918f;
+}
+
+main section.page2 div.cards .card p {
+  padding: 1rem 0rem;
+}
+
+@media screen and (max-width: 550px) {
+  section.page2 div.cards .card img {
+    width: 50vw;
+    height: 50vw;
+  }
+}
+
+footer {
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 30vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media screen and (max-width: 550px) {
+  footer div.icon {
+    padding: 1rem;
+  }
+  footer div.icon a img {
+    width: 10vw;
+    height: 10vw;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

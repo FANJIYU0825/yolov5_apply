@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+    <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Youtuber Detecter</title>
+       <meta name="description" content="查查看">
+       <meta name="author" content="Min">
+       <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+        <!-- web icon -->
+       <link rel="icon" href="">
+       <script src="{{url_for('static', filename='js/app.js')}}"></script>
+        <!-- CSS file -->
+        <link rel='stylesheet' type="text/css" href="{{ url_for('static',filename='styles/styles.css')}}">
+	<link rel='stylesheet' type="text/css" href="{{ url_for('static',filename='styles/styles.css.map')}}">
+	<link rel='stylesheet' type="text/css" href="{{ url_for('static',filename='styles/styles.scss')}}">
+    </head>
+    <!-- ------- -->
+
+    <body>
+        <header>
+            <div class="logo">
+                
+                <img src="{{ url_for('static',filename='Icons/logo2.png')}}" alt="Logo">
+                <h1> Youtuber Detecter</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#index.html">首頁</a></li>
+                    <li><a href="">關於我們</a></li>
+                    <li><a href="">聯絡我們</a></li>
+                </ul>  
+            </nav>
+        </header>
+
+    <!-- ------- -->
+
+        <main>
+            <section class="backImage">
+                <div class="filter"></div>
+                <h3>上傳照片，找出照片裡的人是誰<br>立即上傳！</h3>
+                <form class="option" action="/uploader" method="POST">
+                    <!--  -->
+                    <label for="file-upload" class="custom-file-upload">
+                        Touch me !
+                    </label>
+                    <input id="file-upload" type="file"/>
+                    
+                    <br>
+                    <button class="start" type="submit" >Upload</button> 
+                </form>
+                
+                
+            </section>
+            
+            <section class="page2">
+                <h2 class="page2nde">Put in our Model !</h2>
+                <h2 class="page2nde">This is just for fun</h2>
+                <br>
+
+                <div class="cards">
+                    <div class="card">
+                        <!-- <img src="./Pictures/machine-learning-icon-two-color-design-red-black-style-elements-icons-collection-creative-web-apps-software-print-144659464 copy.jpeg" alt=""> -->
+                        <h4>上傳的照片</h4>
+                        <p>This will cost a little time</p>
+                        <button>Put in Model</button>
+                    </div>
+                </div>
+                
+
+            </section>
+        </main>
+
+    <!-- ------- -->
+
+        <footer>
+            <div class="footerlogo">
+                <h2>本計畫由范大師主導</h2>
+            </div>
+        </footer>
+    </body>
+    
+    
+</html>
