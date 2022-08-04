@@ -1,0 +1,154 @@
+gunicorn
+absl-py==1.2.0
+aiohttp==3.8.1
+aiosignal==1.2.0
+altgraph==0.17.2
+appdirs==1.4.4
+argon2-cffi @ file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work
+argon2-cffi-bindings @ file:///C:/ci/argon2-cffi-bindings_1644569878360/work
+asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+async-timeout==4.0.2
+atomicwrites==1.4.0
+attrs @ file:///opt/conda/conda-bld/attrs_1642510447205/work
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+beautifulsoup4 @ file:///C:/ci/beautifulsoup4_1650274792587/work
+bleach @ file:///opt/conda/conda-bld/bleach_1641577558959/work
+bs4==0.0.1
+cachetools==5.2.0
+certifi @ file:///C:/Windows/TEMP/abs_e9b7158a-aa56-4a5b-87b6-c00d295b01fanefpc8_o/croots/recipe/certifi_1655968940823/work/certifi
+cffi @ file:///C:/ci_310/cffi_1642682485096/work
+charset-normalizer==2.1.0
+click==8.1.3
+colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
+cssselect==1.1.0
+cycler==0.11.0
+debugpy @ file:///C:/ci/debugpy_1637073815078/work
+decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
+entrypoints @ file:///C:/ci/entrypoints_1649926621247/work
+et-xmlfile==1.1.0
+executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
+fake-useragent==0.1.11
+fastjsonschema @ file:///tmp/build/80754af9/python-fastjsonschema_1620414857593/work/dist
+Flask==2.1.2
+fonttools==4.33.3
+frozenlist==1.3.0
+future==0.18.2
+google-auth==2.9.1
+google-auth-oauthlib==0.4.6
+grpcio==1.48.0
+idna==3.3
+importlib-metadata==4.12.0
+importlib-resources @ file:///tmp/build/80754af9/importlib_resources_1625135880749/work
+iniconfig==1.1.1
+instaloader==4.9.2
+ipykernel @ file:///C:/ci/ipykernel_1647000978151/work/dist/ipykernel-6.9.1-py3-none-any.whl
+ipython @ file:///C:/ci/ipython_1651601994376/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+ipywidgets @ file:///tmp/build/80754af9/ipywidgets_1634143127070/work
+itsdangerous==2.1.2
+jedi @ file:///C:/ci/jedi_1644315425835/work
+Jinja2 @ file:///opt/conda/conda-bld/jinja2_1647436528585/work
+joblib==1.1.0
+jsonschema @ file:///C:/ci/jsonschema_1650026220037/work
+jupyter==1.0.0
+jupyter-client @ file:///C:/ci/jupyter_client_1650534470695/work
+jupyter-console @ file:///opt/conda/conda-bld/jupyter_console_1647002188872/work
+jupyter-core @ file:///C:/ci/jupyter_core_1651656285178/work
+jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
+jupyterlab-widgets @ file:///tmp/build/80754af9/jupyterlab_widgets_1609884341231/work
+kiwisolver==1.4.3
+labelImg==1.8.6
+line-bot-sdk==2.3.0
+lxml==4.9.1
+Markdown==3.4.1
+MarkupSafe @ file:///C:/ci/markupsafe_1654489871526/work
+matplotlib==3.5.2
+matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
+mistune==0.8.4
+multidict==6.0.2
+nbclient @ file:///C:/ci/nbclient_1650290386732/work
+nbconvert @ file:///C:/ci/nbconvert_1649741005454/work
+nbformat @ file:///C:/ci/nbformat_1649845101866/work
+nest-asyncio @ file:///C:/ci/nest-asyncio_1649829929372/work
+notebook @ file:///C:/ci/notebook_1651648658345/work
+numpy==1.23.0
+oauthlib==3.2.0
+opencv-python==4.6.0.66
+openpyxl==3.0.10
+packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
+pandas==1.4.3
+pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
+parse==1.19.0
+parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
+pefile==2022.5.30
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow==9.2.0
+pluggy==1.0.0
+prometheus-client @ file:///opt/conda/conda-bld/prometheus_client_1643788673601/work
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
+protobuf==3.19.4
+psutil==5.9.1
+pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
+py==1.11.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pyee==8.2.2
+Pygments @ file:///opt/conda/conda-bld/pygments_1644249106324/work
+pyinstaller==5.2
+pyinstaller-hooks-contrib==2022.8
+pyparsing @ file:///tmp/build/80754af9/pyparsing_1635766073266/work
+pyppeteer==1.0.2
+PyQt5==5.15.7
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.11.0
+pyquery==1.4.3
+pyrsistent @ file:///C:/ci/pyrsistent_1636111468851/work
+pytest==7.1.2
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+pytz==2022.1
+pywin32==302
+pywin32-ctypes==0.2.0
+pywinpty @ file:///C:/ci_310/pywinpty_1644230983541/work/target/wheels/pywinpty-2.0.2-cp38-none-win_amd64.whl
+PyYAML==6.0
+pyzmq @ file:///C:/ci/pyzmq_1638435185959/work
+qtconsole @ file:///opt/conda/conda-bld/qtconsole_1649078897110/work
+QtPy @ file:///opt/conda/conda-bld/qtpy_1649073884068/work
+requests==2.28.1
+requests-html==0.10.0
+requests-oauthlib==1.3.1
+rsa==4.9
+scikit-learn==1.1.1
+scipy==1.8.1
+seaborn==0.11.2
+Send2Trash @ file:///tmp/build/80754af9/send2trash_1632406701022/work
+sip==4.19.13
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sklearn==0.0
+soupsieve @ file:///tmp/build/80754af9/soupsieve_1636706018808/work
+stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
+tensorboard==2.9.1
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+terminado @ file:///C:/ci/terminado_1644322757089/work
+testpath @ file:///C:/Windows/TEMP/abs_23c7fa33-cbb9-46dc-b7c5-590c38e2de3d4bmbngal/croots/recipe/testpath_1655908553202/work
+thop==0.1.1.post2207130030
+threadpoolctl==3.1.0
+tomli==2.0.1
+torch==1.12.0
+torchvision==0.13.0
+tornado @ file:///C:/ci/tornado_1606942392901/work
+tqdm==4.64.0
+traitlets @ file:///tmp/build/80754af9/traitlets_1636710298902/work
+typing_extensions @ file:///opt/conda/conda-bld/typing_extensions_1647553014482/work
+urllib3==1.26.9
+w3lib==1.22.0
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+webencodings==0.5.1
+websockets==10.3
+Werkzeug==2.1.2
+widgetsnbextension @ file:///C:/ci/widgetsnbextension_1645009558218/work
+wincertstore==0.2
+yarl==1.7.2
+zipp @ file:///C:/ci/zipp_1652274073489/work

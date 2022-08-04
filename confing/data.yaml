@@ -1,0 +1,56 @@
+names:
+- '15'
+- 87princess
+- Alan
+- Alisasa
+- Brian
+- Enoki mushroom
+- Fred
+- Hook
+- Huang Bro-wei
+- Huang Bro-zhe
+- James
+- Joseph
+- Kart
+- Li Ke Tai Tai
+- Ma face lady
+- Mihara Keigo
+- Pierre Liu
+- Tang Qiyang
+- Yusheng
+- Zhong Mingxuan
+- aries
+- bacon
+- beef
+- coffee
+- cool
+- crown
+- ding
+- dinter
+- doctor
+- dontkjoanne
+- dried fish
+- e
+- egg
+- frog
+- gina
+- goldfish_brain
+- hajimesyacho
+- how how
+- i
+- imserious
+- jam
+- joeman
+- la
+- lawyer
+- lulu
+- mc jeng
+- ricky
+- soon
+- toyz
+- tsai
+- wawako
+- yuci
+nc: 52
+train: 50-TEST-2/train/images
+val: 50-TEST-2/valid/images
