@@ -2,7 +2,8 @@ import torch
 import pandas as pd
 
 def predictionreulst(img):
-    # I have change the package     
+    # I have change the package
+    #      
     model = torch.hub.load('FANJIYU0825/yolov5', 'custom', path='best.pt', force_reload=True)
     results = model(img)
     results.save("../img")
