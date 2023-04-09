@@ -3,4 +3,6 @@
  ## Here we do two exp
 1. model 
 2. 2D and 3D  
+## blog via here 
+- [web](https://sites.google.com/view/tonyfan/sideproject/face-detection-via-yolo5)
 
