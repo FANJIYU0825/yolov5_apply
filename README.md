@@ -13,5 +13,5 @@ Good Face Detection Model
 <p align="center"><img src="https://raw.githubusercontent.com/serengil/retinaface/master/tests/outputs/img3.jpg" width="40%" height="40%">
 
 ## Sceen shot
-<p align="center"><img src="https://raw.githubusercontent.com/serengil/retinaface/master/tests/outputs/img3.jpg" width="40%" height="40%">
+<p align="center"><img src="https://github.com/FANJIYU0825/yolov5_apply/blob/fa3da41fce54ee1d10ead1b53f155e90d1eaa967/Report/screen%20shot.png.jpg" width="40%" height="40%">
 
