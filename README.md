@@ -1,6 +1,6 @@
 # yolov5_model_apply
 * We use auto Detection Build an auto FaceDetection system
-* After we feed in the yolo5 to detect the people which YouTuber is 
+* After labeling the data, we feed it into YOLOv5 to detect which people are YouTubers.
 ## Here we do two exp
 1. model  we use yolo5 & [RetinaFace](https://github.com/serengil/retinaface)
 2. 2D and 3D  
